@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  /*paina left+top painiki avuthundi*/
+    padding: 0;  /*konchem annitiki madyalo space vasthadi*/
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+       height: 100vh;
+} 
+.container{
+    box-shadow: 0px 0px 12px #ccc;/* left+shadow+shade */
+    border-radius: 8px;
+    padding: 3rem;   /*kindaku ravalante*/
+} 
+input{
+    width: 100%;   /*box addanga long */
+    font-size: 1.2rem;
+    padding: 15px 4px;  /*box lopala space*/
+    margin: 8px 0;
+    border-radius: 8px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 8px 0;  /*paina kinda duram avuthai*/
+    padding: 15px 0; 
+    background-color: #0077EE;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+.btn-outline{
+    background-color: #fff;
+    color: #A6BCDA;
+
+}
+.center{
+    text-align: center;
+    margin: 24px 0;
+}
+p{
+    margin: 10px 0;
+}
+.img-container{
+    text-align: center;
+}
+.img-container img {
+    height: 200px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
